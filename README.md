@@ -11,11 +11,11 @@ Zalecane jest najpierw pobranie notebooka **SpamDetection.ipynb** oraz pliku **r
 pip install -r requirements.txt
 ```
 ### Trenowanie modelu
-1. Pobierz notebook **SpamDetection.ipynb** oraz folder **tuner_trials** i umieść je w jednym folderze.
+1. Pobierz notebook **SpamDetection.ipynb** oraz plik **best_hyperparameters.json** i umieść je w jednym folderze. Jeśli chcesz samemu znaleźć najlepsze hiperparametry, zalecane jest również pobranie folderu **tuner_trials**.
 2. Notebook krok po kroku poprowadzi cię przez proces trenowania modelu.
 
 ### Testowanie modelu na własnych danych
-1. Pobierz pliki: **spam_detector.h5**, **TestUserInput.py**, **tokenizer_msg.pkl** oraz **tokenizer_subj.pkl** i umieść je w tym samym folderze.
+1. Pobierz pliki: **spam_detector.h5**, **TestUserInput.py**, **tokenizer_msg.pkl** oraz **tokenizer_subj.pkl** i umieść je w jednym folderze.
 2. W konsoli wpisz:
 ```
 python TestUserInput.py
