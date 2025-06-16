@@ -1,0 +1,11 @@
+{
+    "embedding_dim": 16,
+    "filters_subj": 32,
+    "kernel_size_subj": 3,
+    "filters_msg": 96,
+    "kernel_size_msg": 3,
+    "dense1_units": 64,
+    "dropout1_rate": 0.30000000000000004,
+    "dense2_units": 8,
+    "dropout2_rate": 0.2
+}
